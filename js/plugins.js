@@ -6261,29 +6261,6 @@
 	 * @public
 	 * @todo Rename `slideBy` to `navBy`
 	 */
-	Navigation.Defaults = {
-		nav: false,
-		navText: [
-			'<span aria-label="' + 'prev' + '">&#x2039;</span>',
-			'<span aria-label="' + 'next' + '">&#x203a;</span>'
-		],
-		navSpeed: false,
-		navElement: 'button role="presentation"',
-		navContainer: false,
-		navContainerClass: 'owl-nav',
-		navClass: [
-			'owl-prev',
-			'owl-next'
-		],
-		slideBy: 1,
-		dotClass: 'owl-dot',
-		dotsClass: 'owl-dots',
-		dots: true,
-		dotsEach: false,
-		dotsData: false,
-		dotsSpeed: false,
-		dotsContainer: false
-	};
 
 	/**
 	 * Initializes the layout of the plugin and extends the carousel.
